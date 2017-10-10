@@ -1,0 +1,140 @@
+body{
+	font-family: 'Prompt', sans-serif;
+}
+
+.container-header{
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 100px;
+}
+
+
+
+.text-header {
+	font-weight: bold;
+	color: #58c3fe;
+}
+
+.container-section{
+	display: flex;
+	height: 500px;
+	background-color: rgba(0,0,0,0.42); 
+}
+
+.infoOne {
+	background-image: url('img/jacoboFondo.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 100%;
+	z-index: -1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.infoTwo{
+	background-image: url('img/jacoboF.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 100%;
+	z-index: -1;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.container-background {
+	/*background: rgba(0, 137, 236, 0.34);*/
+}
+
+.container-comunity{
+	background-color: #f3f3f2;
+	display: flex;
+	flex-direction: column; 
+	padding-bottom: 30px;
+}
+
+.text-info-section{
+
+	color: #fff;
+	text-align: right;
+	margin-right: 5px;
+	font-size: 30px;
+}
+
+.card-title-background{
+	width: 100% !important;
+	background-color: background: red;
+}
+
+.title-comunity{
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-top: 90px;
+}
+
+.comunity-text{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.container-img-comunity {
+	margin: 0 100px;
+}
+
+.history , .history  h3{
+	margin: 0 ;
+	padding: 15px 0px;
+	color: #FFF;
+	background-color: #58c3fe;
+	font-weight: bold;
+	text-align: center;
+}
+
+.history-text {
+	margin: 0 100px;
+}
+
+.comunity-info{
+	display: flex;
+	margin: 0 100px;
+}
+
+.card-text{
+	width: 33%;
+	margin: 5px 15px;
+	border-bottom: 1px solid ;
+	margin
+}
+
+.container-margin{
+	margin: 0 100px;
+}
+
+footer {
+	background: rgb(23, 24, 21);
+	color: #fff;
+}
+
+.container-footer{
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	.container-img-comunity{
+		margin: 0 10px;
+	}
+	.container-section{
+		height: 270px;
+	}
+	.container-header{
+		margin: 15px 10px;
+	}
+	.container-margin{
+		margin: 15px 10px;
+	}
+}
